@@ -13,6 +13,11 @@ a {
     text-decoration: none;
 }
 
+h3 {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
 img {
     max-width: 100%;
 }
@@ -38,6 +43,10 @@ body {
 
 .flex {
     display: flex;
+}
+
+.header {
+    margin-bottom: 70px;
 }
 
 .container {
@@ -74,5 +83,105 @@ body {
     margin-right: 40px;
 }
 
+                                    /* SPECIAL OFFERS  */
 
+.section-title {
+    margin: 0;
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
 
+.special-offers-item{
+    width: 573px;
+    outline: 1px solid coral;
+}
+
+.place-offers {
+    flex-direction: column;
+    width: 573px;
+}
+
+.special-offers-list {
+    justify-content: space-between;
+}
+
+.special-offers {
+    margin-bottom: 70px;
+}
+
+.place-offers-item {
+    padding: 40px 45px;
+    outline: 1px solid coral;
+}
+
+.place-offers-item:not(:last-child) {
+margin-bottom: 24px;
+}
+
+.special-offers-item {
+    padding:45px;
+}
+
+                                    /* ABOUT US */
+
+.about-us {
+    margin-bottom: 108px;
+}
+
+.about-us-descr {
+    margin: 0;
+    max-width: 888px;
+}
+
+                                    /* SERVICES */
+
+.services {
+    margin-bottom: 32px;
+}
+
+.services-list {
+    flex-wrap: wrap;
+}
+
+.services-item:not(:nth-child(2n)) {
+    margin-right: 24px;
+}
+
+.services-item {  
+    width: 573px;
+}
+
+                                    /* ADVANTAGES */
+
+.advantages {
+    margin-bottom: 48px;
+}
+
+.advantages-list {
+    flex-wrap: wrap;
+}
+
+.advantages-item {
+    margin-bottom: 22px;
+    width: 276px;
+    outline: 1px solid coral;
+}
+
+.advantages-item:not(:nth-child(4n)) {
+    margin-right: 22px;
+    
+}
+
+                                    /* PLACEMENT */
+
+.placement-list {
+    flex-wrap: wrap;
+}
+
+.placement-item {
+    width: 374px;
+}
+
+.placement-item:not(:nth-child(3n)) {
+    margin-right: 24px;
+}
